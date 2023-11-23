@@ -12,8 +12,16 @@ function App() {
   const addValue = ()=>{
     console.log("clicked", counter);
     if (counter < 20) {
-      counter = counter + 1
-      setCounter(counter)
+      // setCounter(counter + 1)
+      // setCounter(counter + 1)
+      // setCounter(counter + 1)
+      // setCounter(counter + 1)
+      //uppar wale ko jab hum run karenge toh sirf ek baar increase karega 
+      //setCounter hame call back ka feature bhi deta h
+      setCounter((prevCounter) => prevCounter + 1)
+      setCounter(prevCounter => prevCounter + 1)
+      setCounter(prevCounter => prevCounter + 1)
+      setCounter(prevCounter => prevCounter + 1)
     }else{
       alert('You have exceeded the limit')
     }
