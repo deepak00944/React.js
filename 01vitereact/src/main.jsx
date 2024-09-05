@@ -17,10 +17,10 @@ const anotherElement = (
 )
 
 
-//react mai khud ka ek syntax hota h element create karne ka 
+//react mai khud ka ek syntax hota h element create karne ka islikye hum humare waale se nhi kar paa rhe the 
 //jo variable hum inject karte h vo yha par tree banne ke baad inject hote h nichee tohh dekho
 
-const anotherUser =  "Deepak"
+const anotherUser =  "Deepak"   // ye direct inject nhi ho sakta yaa hum sidhe reactElement m ifelse ya aur js nhi likh skate kyuki ye evaluated expression hai.
 const reactElement = React.createElement(
   'a',
   {href:"https://google.com", target:"_blank"},

@@ -1,3 +1,0 @@
-##Fiber, VirtualDOM and reconciliation 
-
-https://github.com/acdlite/react-fiber-architecture
